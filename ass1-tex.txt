@@ -1,0 +1,47 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with`a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{placeins}
+
+\title{Assignment1}
+\author{Zilin Xiong}
+
+\begin{document}
+\maketitle
+
+
+\section{Text,in-text citation,equation}
+My research interests lay in supply chain analysis. As a new PhD. student, however, I am still looking for a certain field to perform my research. To be honest, I feel a little overwhelming when facing piles of papers to read for the first week. Here's one of the papers I have for this week is related to the \href{https://pubsonline.informs.org/doi/abs/10.1287/mnsc.46.3.436.12069}{bullwhip effects in supply chain}. For which, I found pretty difficult to read, because of the complex mathematics, such as:
+$$
+\hat{D}_{L}^{t}=L\left ( \frac{\sum _{i=1}^{p}D_{t-1}}{P} \right )
+$$
+
+\subsection{Figure}
+
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.3\textwidth]{11111.png}
+\caption{\label{fig:master}This is a png file}
+\end{figure}
+
+\subsection{Here's reference}
+\cite{bullwhip}
+Here's the citation of the article I mentioned above.
+
+
+\bibliographystyle{plain}
+\bibliography{reference}
+
+\end{document}
